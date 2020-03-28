@@ -22,6 +22,6 @@ request.onreadystatechange = () => {
 };
 request.open(
 	'GET',
-	`http://api.giphy.com/v1/gifs/search?q=harry+potter&api_key=${API_KEY}&limit=16`
+	`https://api.giphy.com/v1/gifs/search?q=harry+potter&api_key=${API_KEY}&limit=16`
 );
 request.send(null);
