@@ -1,0 +1,24 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+}
+#sortingSection {
+	display: flex;
+	justify-content: center;
+}
+#searchSection::before {
+	content: '~*~';
+	position: relative;
+	left: 38%;
+	font-size: 100px;
+	color: rgb(122, 95, 5);
+}
+img {
+	height: 250px;
+	margin-bottom: 20px;
+}
+#resultSection {
+	display: flex;
+}
+li {
+	list-style: none;
+}
